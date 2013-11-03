@@ -1,0 +1,23 @@
+﻿Lindenwold, Ashland, Woodcrest – Philadelphia $3.00
+Haddonfield, Westmont, Collingswood – Philadelphia $2.60
+Ferry Avenue (Camden) – Philadelphia $2.25
+NJ station to another NJ station $1.60
+Broadway, City Hall (Camden) – Philadelphia $1.40
+ONE-WAY FARES:
+PA station to another PA station $1.40
+Off-peak for members of Reduced Fare Program** $0.70
+
+lindenwold	240
+ashland		241
+woodcrest	242
+haddonfield	243
+westmont	244
+collingswood	245
+ferry ave	246
+broadway	247
+city hall	248
+
+8th market	249
+9th locust	250
+12th locust	251
+15th locust	252

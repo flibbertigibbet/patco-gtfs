@@ -1,0 +1,7 @@
+fare_id,price,currency_type,payment_method,transfers
+law_phl,3.00,USD,1,0
+hwc_phl,2.60,USD,1,0
+f_phl,2.25,USD,1,0
+nj_nj,1.60,USD,1,0
+bc_phl,1.40,USD,1,0
+phl_phl,1.40,USD,1,0

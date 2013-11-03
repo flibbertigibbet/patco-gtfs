@@ -1,0 +1,14 @@
+stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id
+240,"Lindenwold","Lindenwold, NJ",39.83389,-75.00056,240
+241,"Ashland (Voorhees)","Ashland (Voorhees), NJ",39.85856,-75.009199,241
+242,"Woodcrest/Cherry Hill","Woodcrest/Cherry Hill, NJ",39.870166,-75.011217,242
+243,"Haddonfield","Haddonfield, NJ",39.897352,-75.036822,243
+244,"Westmont (Haddon Twp)","Westmont (Haddon Twp), NJ",39.907117,-75.046775,244
+245,"Collingswood","Collingswood, NJ",39.913561,-75.064561,245
+246,"Ferry Ave (Camden)","Ferry Ave (Camden), NJ",39.922779,-75.088022,246
+247,"Broadway (Camden)","Broadway (Camden), NJ",39.942693,-75.118545,247
+248,"City Hall (Camden)","City Hall (Camden), NJ",39.945568,-75.121133,248
+249,"8th & Market St","8th & Market St, Philadelphia",39.951181,-75.1532,249
+250,"9-10th & Locust St","9-10th & Locust St, Philadelphia",39.947114,-75.156092,250
+251,"12-13th & Locust St","12-13th & Locust St, Philadelphia",39.947731,-75.160797,251
+252,"15-16th & Locust St","15-16th & Locust St, Philadelphia",39.948417,-75.166208,252
