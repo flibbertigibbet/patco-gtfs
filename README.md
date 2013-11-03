@@ -1,7 +1,7 @@
 patco-gtfs
 ==========
 
-Build [GTFS](https://developers.google.com/transit/gtfs/) files using data extracted from [PATCO's PDF schedule](http://www.ridepatco.org/schedules/schedules.asp PATCO schedule).
+Build [GTFS](https://developers.google.com/transit/gtfs/) files using data extracted from [PATCO's PDF schedule](http://www.ridepatco.org/schedules/schedules.asp).
 
 I've been uploading the results of the process to the GTFS Data Exchange:
 <http://www.gtfs-data-exchange.com/agency/patco/>
@@ -10,7 +10,7 @@ To use:
 =======
 1. Extract data from each table in the schedule PDF into the corresponding direction\_weekday.csv file.
 
-    [Tabula](https://github.com/jazzido/tabula Tabula) helps with this, but the result may need some fixing.
+    [Tabula](https://github.com/jazzido/tabula) helps with this, but the result may need some fixing.
     
 2. Write the new trips.txt and stop\_times.txt by running make\_trips\_stops.py:
         `python make_trips_stops.py`
