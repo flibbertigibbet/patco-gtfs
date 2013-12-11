@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import csv
 
 fare_rules_header=['fare_id','origin_id','destination_id']

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import csv
 
 inf = open('use_holidays.txt', 'r')

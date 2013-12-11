@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import csv
 
 estops = range(240,253) # 240-252 are Lindenwold to 15th-16th & Locust (Eastbound)
