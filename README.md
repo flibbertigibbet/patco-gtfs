@@ -18,7 +18,7 @@ To use:
 3. If the scheduled holidays need updating, modify use\_holidays.txt and run make\_calendar\_dates.py:
         `python make_calendar_dates.py`
         
-4. If the fares need updating, modify the fare\_attributes.txt file directly in the gtfs\_files directory.
+4. If the fare prices need updating, modify the fare\_attributes.txt file directly in the gtfs\_files directory.
 
 5. Modify calendar.txt in the gtfs\_files directory to set the schedule's effective date.
 
