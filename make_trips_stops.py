@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import csv
 
-estops = range(240,253) # 240-252 are Lindenwold to 15th-16th & Locust (Eastbound)
-wstops = range(240, 253)
-wstops.reverse() # Philly to Lindenwold
+wstops = range(240,253) # 240-252 are Lindenwold to 15th-16th & Locust (Westbound)
+estops = range(240, 253)
+estops.reverse() # Philly to Lindenwold
 
 route_id = 12
 service_ids = {'sunday':1,'saturday':2,'weekdays':3}
