@@ -66,7 +66,7 @@ def process_table(direction, service_days):
         # arrow indicating skipped stops (or empty field if multiple skipped)
         isSpecial = True
         this_stop +=1
-    print(isSpecial, len(times), times)
+    #print(isSpecial, len(times), times)
     if isSpecial:
       wtrips.writerow([12,service_ids[service_days],tripId,
         special_directions[direction][1], special_directions[direction][0]])
