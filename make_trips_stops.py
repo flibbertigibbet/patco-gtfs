@@ -6,7 +6,7 @@ estops = range(240, 253)
 estops.reverse() # Philly to Lindenwold
 
 route_id = 12
-service_ids = {'sunday':1,'saturday':2,'weekdays':3}
+service_ids = {'sunday':1,'saturday':2,'monday':3,'tuesday_thursday':4,'friday':5}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 directions = {'eastbound':[1,"LINDENWOLD LOCAL",estops],
