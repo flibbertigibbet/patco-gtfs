@@ -2,7 +2,7 @@
 import csv
 
 wstops = range(240,253) # 240-252 are Lindenwold to 15th-16th & Locust (Westbound)
-estops = range(240, 253)
+estops = range(240,253)
 estops.reverse() # Philly to Lindenwold
 
 route_id = 12
@@ -34,7 +34,7 @@ def process_table(direction, service_days):
       startMidnight = True  # use '24' for stop times after midnight
     
     for fld in flds:
-      t = fld.strip('"').strip()
+      t = fld.rstrip().strip('"').rstrip()
       if t.endswith('P') or t.endswith('A'): 
         if t.startswith('X') or t.startswith('W'):
           t = t[1:].strip()
@@ -65,8 +65,9 @@ def process_table(direction, service_days):
       else:
         # arrow indicating skipped stops (or empty field if multiple skipped)
         isSpecial = True
+        print('Special field is:::' + fld + ':::')
         this_stop +=1
-    #print(isSpecial, len(times), times)
+    print(isSpecial, len(times), times)
     if isSpecial:
       wtrips.writerow([12,service_ids[service_days],tripId,
         special_directions[direction][1], special_directions[direction][0]])
