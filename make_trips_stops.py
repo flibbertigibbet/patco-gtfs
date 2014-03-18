@@ -6,7 +6,9 @@ estops = range(240,253)
 estops.reverse() # Philly to Lindenwold
 
 route_id = 12
-service_ids = {'sunday':1,'saturday':2,'monday':3,'tuesday_thursday':4,'friday':5}
+
+# map the csv file names to the days of the week for the service IDs in calendar.txt
+service_ids = {'sunday': 1, 'saturday': 2, 'monday_thursday': 3, 'friday': 4}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 directions = {'eastbound':[1,"LINDENWOLD LOCAL",estops],
@@ -21,6 +23,7 @@ tripId = 4151 # start number for trips (arbitrary)
 def process_table(direction, service_days):
   global tripId
   inf = open(direction + '_' + service_days + '.csv', 'r')
+  print('processing file ' + direction + '_' + service_days + '.csv...')
   for ln in inf:
     flds = ln.split(',')
     times = {}
@@ -29,12 +32,12 @@ def process_table(direction, service_days):
     this_stop = 0
     isSpecial = False
     startMidnight = False   
-    startFld = flds[0].replace('X', '').replace('W', '').strip('"').strip()
+    startFld = flds[0].replace('X', '').replace('W', '').strip().strip('"').strip()
     if startFld.startswith('12') and startFld.endswith('A'):
       startMidnight = True  # use '24' for stop times after midnight
     
     for fld in flds:
-      t = fld.rstrip().strip('"').rstrip()
+      t = fld.strip().strip('"').strip()
       if t.endswith('P') or t.endswith('A'): 
         if t.startswith('X') or t.startswith('W'):
           t = t[1:].strip()
@@ -47,7 +50,7 @@ def process_table(direction, service_days):
         if t.endswith('A'):
           if hr == '12':
             if startMidnight:
-              times[directions[direction][2][this_stop]] = '00:' + mins
+            	times[directions[direction][2][this_stop]] = '00:' + mins
             else:
               times[directions[direction][2][this_stop]] = '24:' + mins
           else:
@@ -91,3 +94,4 @@ for d in directions.keys():
 
 outtrips.close()
 outstoptimes.close()
+print('all done!')
