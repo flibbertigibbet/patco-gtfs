@@ -18,7 +18,6 @@ for ln in reader:
     # remove weekday service
     writer.writerow([3,ln[0],2])
     writer.writerow([4,ln[0],2])
-    writer.writerow([5,ln[0],2])
     # add sunday service
     writer.writerow([1,ln[0],1])
 
