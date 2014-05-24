@@ -8,7 +8,7 @@ estops.reverse() # Philly to Lindenwold
 route_id = 12
 
 # map the csv file names to the days of the week for the service IDs in calendar.txt
-service_ids = {'sunday': 1, 'saturday': 2, 'monday_thursday': 3, 'friday': 4}
+service_ids = {'sunday':1,'saturday':2,'weekdays':3}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 directions = {'eastbound':[1,"LINDENWOLD LOCAL",estops],
@@ -50,7 +50,7 @@ def process_table(direction, service_days):
         if t.endswith('A'):
           if hr == '12':
             if startMidnight:
-            	times[directions[direction][2][this_stop]] = '00:' + mins
+              times[directions[direction][2][this_stop]] = '00:' + mins
             else:
               times[directions[direction][2][this_stop]] = '24:' + mins
           else:
