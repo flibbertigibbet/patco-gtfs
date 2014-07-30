@@ -6,6 +6,10 @@ Build [GTFS](https://developers.google.com/transit/gtfs/) files using data extra
 I've been uploading the results of the process to the GTFS Data Exchange:
 <http://www.gtfs-data-exchange.com/agency/patco/>
 
+Build status:
+=============
+[![](https://travis-ci.org/flibbertigibbet/patco-gtfs.svg)](https://travis-ci.org/flibbertigibbet/patco-gtfs)
+
 To use:
 =======
 1. Extract data from each table in the schedule PDF into the corresponding direction\_weekday.csv file.

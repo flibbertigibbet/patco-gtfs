@@ -1,0 +1,19 @@
+language: python
+python:
+  - "2.7"
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq zip
+  - sudo pip install pytz
+  - wget https://googletransitdatafeed.googlecode.com/files/transitfeed-1.2.12.tar.gz
+  - tar xzf transitfeed-1.2.12.tar.gz
+  - pushd transitfeed-1.2.12
+  - sudo python setup.py install
+  - popd
+  - pushd gtfs_files 
+  - zip patco.zip *
+  - popd
+
+script: feedvalidator.py --output=CONSOLE --error_types_ignore_list="ExpirationDate" gtfs_files/patco.zip
+
