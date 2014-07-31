@@ -8,7 +8,7 @@ estops.reverse() # Philly to Lindenwold
 route_id = 12
 
 # map the csv file names to the days of the week for the service IDs in calendar.txt
-service_ids = {'sunday':1,'saturday':2,'weekdays':3}
+service_ids = {'sunday':1,'saturday':2,'monday_wednesday':3, 'thursday':4, 'friday': 5}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 directions = {'eastbound':[1,"LINDENWOLD LOCAL",estops],
@@ -69,7 +69,7 @@ def process_table(direction, service_days):
         # arrow indicating skipped stops (or empty field if multiple skipped)
         isSpecial = True
         this_stop +=1
-    #print(isSpecial, len(times), times)
+    # print(isSpecial, len(times), times)
     if isSpecial:
       wtrips.writerow([12,service_ids[service_days],tripId,
         special_directions[direction][1], special_directions[direction][0]])
