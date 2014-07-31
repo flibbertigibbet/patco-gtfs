@@ -8,7 +8,6 @@ estops.reverse() # Philly to Lindenwold
 route_id = 12
 
 # map the csv file names to the days of the week for the service IDs in calendar.txt
-# service_ids = {'sunday':1,'saturday':2,'weekdays':3}
 service_ids = {'sunday':1,'saturday':2,'monday_wednesday':3, 'thursday':4, 'friday': 5}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
