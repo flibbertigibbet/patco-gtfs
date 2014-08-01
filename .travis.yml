@@ -15,5 +15,5 @@ before_install:
   - zip patco.zip *
   - popd
 
-script: feedvalidator.py --output=CONSOLE --error_types_ignore_list="ExpirationDate" gtfs_files/patco.zip
+script: python validate_feed.py
 
