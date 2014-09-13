@@ -1,3 +1,9 @@
+# built GTFS
+*.zip
+
+# vaildator results
+validation-results.html
+
 *.py[cod]
 
 # C extensions

@@ -17,7 +17,8 @@ special_directions = {'eastbound':[1,"LINDENWOLD SPECIAL"],
   'westbound':[0,"PHILADELPHIA SPECIAL"]}
 stop_times_header = ['trip_id','arrival_time','departure_time','stop_id',
   'stop_sequence','pickup_type','drop_off_type']
-trips_header = ['route_id','service_id','trip_id','trip_headsign','direction_id']
+trips_header = ['route_id','service_id','trip_id','trip_headsign',
+                'direction_id', 'shape_id']
 tripId = 4151 # start number for trips (arbitrary)
 
 def process_table(direction, service_days):
@@ -71,11 +72,11 @@ def process_table(direction, service_days):
         this_stop +=1
     # print(isSpecial, len(times), times)
     if isSpecial:
-      wtrips.writerow([12,service_ids[service_days],tripId,
-        special_directions[direction][1], special_directions[direction][0]])
+      wtrips.writerow((12,service_ids[service_days],tripId, special_directions[direction][1],
+                      special_directions[direction][0], special_directions[direction][0]))
     else:
-      wtrips.writerow([12,service_ids[service_days],tripId,
-        directions[direction][1], directions[direction][0]])
+      wtrips.writerow((12,service_ids[service_days],tripId, directions[direction][1],
+                      directions[direction][0], directions[direction][0]))
     tripId += 1
   inf.close()
 

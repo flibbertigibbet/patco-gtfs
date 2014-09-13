@@ -1,0 +1,21 @@
+<!--
+Overpass API query used in http://overpass-turbo.eu/ 
+to get PATCO OpenStreetMap data. To use, pan/zoom map
+to PATCO service area (to set {{bbox}} below),
+then run this query in the panel.
+-->
+
+<osm-script output="json" timeout="25">
+  <!-- gather results -->
+  <union>
+    <query type="way">
+      <has-kv k="railway" v="subway"/>
+      <has-kv k="operator" v="PATCO" />
+      <bbox-query {{bbox}}/>
+    </query>
+  </union>
+  <!-- print results -->
+  <print mode="body"/>
+  <recurse type="down"/>
+  <print mode="skeleton" order="quadtile"/>
+</osm-script>

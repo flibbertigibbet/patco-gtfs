@@ -1,0 +1,4148 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "2014-09-05T19:45:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 11589663,
+  "nodes": [
+    103326354,
+    1477779220,
+    326350659,
+    326350658,
+    326350656,
+    326350574
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408897:134408922:134408921:134408941:134410455:134408949:134422094",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 11589673,
+  "nodes": [
+    103326498,
+    326539167
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134409003:134385767",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 11590344,
+  "nodes": [
+    326350574,
+    326350576,
+    326350578,
+    326350579,
+    326350580,
+    326350581,
+    103336382,
+    103336385,
+    103336387,
+    103336389,
+    469917199,
+    769430205,
+    769430206,
+    769430207,
+    769430208,
+    769430209,
+    769430210,
+    769430202
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408863:134408876:134408885:134408886:134408889:134408903:134408909:134408913:134408914:134408915:134408957:134408980:134411139:134412287:134412288:134412290",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "tunnel": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 11590500,
+  "nodes": [
+    103338280,
+    103338282,
+    103338284,
+    103338286,
+    103338288,
+    103338289,
+    103338290,
+    103338291,
+    103338292,
+    103338293,
+    103338294,
+    103338295,
+    103338296,
+    103338297,
+    103338298,
+    103338300,
+    103338303,
+    103338304,
+    103338305,
+    103338306,
+    103338308,
+    103338310,
+    103338312,
+    103338314,
+    103338316
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408823:134408817:134408793:134410435",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 11596848,
+  "nodes": [
+    326539585,
+    103427655,
+    103427653,
+    103427651,
+    103427648,
+    103427647,
+    103326498
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 11596891,
+  "nodes": [
+    103428890,
+    103428887,
+    332247614,
+    103428883,
+    103428879,
+    103428875,
+    103428870,
+    103342397,
+    103342396,
+    103342394,
+    103342392,
+    103429137,
+    103429135,
+    103429131,
+    103429129,
+    103429128,
+    103429127,
+    103429126,
+    103429125,
+    103429124,
+    103326392,
+    103326391,
+    103326389,
+    103326387,
+    103326385,
+    103427145,
+    103427147,
+    103427150
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134341453:134341607:134341613; 134408898:134346121:134346129:134347647:134347666:134347669:134347697:134383723:134385641:134385742:134385743:134387357:134387358:134387361:134387363:134387364:134387417:134387418:134387454:134408849:134408959:134416134",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29654275,
+  "nodes": [
+    103326381,
+    103326379,
+    518307963,
+    103326375,
+    103326373,
+    103326369,
+    103326367,
+    103326363,
+    103326359,
+    103326356,
+    103326354
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408897:134408922:134408921:134408941:134410455:134408949:134422094",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "tunnel": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29654282,
+  "nodes": [
+    327245704,
+    1477779123,
+    103326381
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408897:134408922:134408921:134408941:134410455:134408949:134422094",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29676663,
+  "nodes": [
+    326538957,
+    103428905,
+    332247442,
+    103428899,
+    103428893,
+    103428890
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134386419:134383601:134383602:134347836:134347880:134385746:134375084",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29676822,
+  "nodes": [
+    326539167,
+    103428917,
+    103428915,
+    103428913,
+    103428911,
+    1477779207,
+    103428909,
+    326538928
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134386419:134383601:134383602:134347836:134347880:134385746:134375084",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29676834,
+  "nodes": [
+    326538928,
+    326538957
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134386419:134383601:134383602:134347836:134347880:134385746:134375084",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29677046,
+  "nodes": [
+    326551330,
+    103427667,
+    103427666,
+    103427664,
+    103427663,
+    103427662,
+    103427661,
+    326539572
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29677078,
+  "nodes": [
+    326539572,
+    326539585
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29677958,
+  "nodes": [
+    326551904,
+    103427679,
+    103427677,
+    103427675,
+    103427673,
+    103427671,
+    326551303
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29677963,
+  "nodes": [
+    326551303,
+    103427669,
+    326551330
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29678005,
+  "nodes": [
+    326552946,
+    103427689,
+    103427687,
+    103427685,
+    103427683,
+    326551843
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29678013,
+  "nodes": [
+    326551843,
+    103427681,
+    326551904
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29678093,
+  "nodes": [
+    326553556,
+    103427707,
+    103427705,
+    103427699,
+    103427695,
+    103427691,
+    326552946
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29678141,
+  "nodes": [
+    103348223,
+    103427752,
+    103427750,
+    103427748,
+    103427746,
+    103427744,
+    103427742,
+    103427741,
+    103427740
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349538:134349863:134349966:134349988:134353433:134353782:134353784:134353795:134353826:134353838:134354073:13437:134376364:134376365:134376371:134376372:134376374:134377516:134377517:134377589:134377773:134377774:134384052:134401281:134401282:134424223",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29707369,
+  "nodes": [
+    103427150,
+    103427152,
+    103427154,
+    103427156,
+    103427158,
+    103427160,
+    103427162,
+    103427164,
+    103427166,
+    327244914
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134385641:134346121:134346129:134383723:134341607:134387357:134387358:134387361:134387363:134387364:134341453:134416134:134387454:134387417:134387418:134341613",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29707403,
+  "nodes": [
+    327244914,
+    327244885
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134385641:134346121:134346129:134383723:134341607:134387357:134387358:134387361:134387363:134387364:134341453:134416134:134387454:134387417:134387418:134341613",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29707460,
+  "nodes": [
+    327244885,
+    103326383,
+    103326382
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134341453:134341607:134341613:134346121:134346129:134383723:134385641:134387357:134387358:134387361:134387363:134387364:134387417:134387418:134387454:134408897:134408921:134408922:134408941:134408949:134410455:134416134:134422094",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29707466,
+  "nodes": [
+    103326382,
+    327245704
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408897:134408922:134408921:134408941:134410455:134408949:134422094",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784191,
+  "nodes": [
+    328184310,
+    103427808,
+    328184307
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784195,
+  "nodes": [
+    103427871,
+    103427870,
+    103427869,
+    103427868,
+    103427867,
+    103427865,
+    103427863,
+    103427861,
+    103427859,
+    103427857,
+    103427856,
+    103427855,
+    103427853,
+    103427851,
+    103427847,
+    103427845,
+    103427843,
+    103427841,
+    103427835,
+    103427822,
+    103427820,
+    103427818,
+    103427816,
+    103427814,
+    103427812,
+    103427811,
+    103427810,
+    103427809,
+    328184310
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784464,
+  "nodes": [
+    328206896,
+    103427900,
+    103427898,
+    103427896,
+    103427894,
+    103427892,
+    103427890,
+    103427888,
+    103427884,
+    103427882,
+    103427880,
+    103427876,
+    103427874,
+    103427873,
+    328201615
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784468,
+  "nodes": [
+    328201615,
+    103427871
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784554,
+  "nodes": [
+    328206758,
+    328206896
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784773,
+  "nodes": [
+    103332003,
+    103338319,
+    103338320,
+    103338321,
+    103331991,
+    328210862,
+    448803984,
+    103331985,
+    103331983,
+    103331981,
+    103331978,
+    103331976,
+    103331974,
+    103331972,
+    103331970,
+    103427922,
+    103427920,
+    103427918,
+    103427916,
+    103427914,
+    103427912,
+    103427910,
+    103427908,
+    103427903,
+    103427902,
+    328206758
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 29784780,
+  "nodes": [
+    103338316,
+    103332003
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408823:134408817:134408793:134410435",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 32033624,
+  "nodes": [
+    328184307,
+    103427807,
+    103427805,
+    103427803,
+    103427801,
+    103427800,
+    103427799,
+    103427798,
+    103427797,
+    103427796,
+    103427795
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 39232318,
+  "nodes": [
+    469998216,
+    103427714,
+    103427713,
+    103427711,
+    103427709,
+    326553556
+  ],
+  "tags": {
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 39232319,
+  "nodes": [
+    103427740,
+    103427739,
+    103427737,
+    103427735,
+    103427733,
+    103427731,
+    103427729,
+    103427727,
+    103427726,
+    103427724,
+    103427721,
+    103427719,
+    103427718,
+    103427717,
+    103427716,
+    103427715,
+    469998216
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349538:134349863:134349966:134349988:134353433:134353782:134353784:134353795:134353826:134353838:134354073:13437:134376364:134376365:134376371:134376372:134376374:134377516:134377517:134377589:134377773:134377774:134384052:134401281:134401282:134424223",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 39232320,
+  "nodes": [
+    103427755,
+    103427754,
+    103348223
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 39232321,
+  "nodes": [
+    103427795,
+    103427794,
+    103427792,
+    103427790,
+    103427788,
+    103427786,
+    103427784,
+    103427782,
+    103427780,
+    103427778,
+    103427776,
+    103427774,
+    103427772,
+    103427770,
+    103427768,
+    103427766,
+    103427764,
+    103427762,
+    103427760,
+    103427758,
+    103427756,
+    103427755
+  ],
+  "tags": {
+    "cutting": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134349988:134353433:134353782:134353784:134384052:134353795:134349966:134353826:134354073:134401281:134401282:134377589:134376364:134376365:134353838:134424223:134349863:134376371:134376372:134376374:134377516:134377517:134377773:134377774:134349538:13437",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 61756381,
+  "nodes": [
+    769430195,
+    769430196
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408863:134408876:134408885:134408886:134408889:134408903:134408909:134408913:134408914:134408915:134408957:134408980:134411139:134412287:134412288:134412290",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 61756382,
+  "nodes": [
+    769430196,
+    769430197,
+    469917229,
+    469917228,
+    469917267,
+    469917264,
+    469917265,
+    469917243,
+    469917263,
+    469917239,
+    469917241,
+    469917278,
+    469917280,
+    469917275,
+    469917276,
+    469917270,
+    469917272,
+    469917268,
+    471026101,
+    469917269,
+    469917294,
+    469917292,
+    471026102,
+    469917305,
+    469917298,
+    2878647123,
+    2878647124,
+    471026103,
+    469917297
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tunnel": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 61756383,
+  "nodes": [
+    769430198,
+    769430199,
+    769430200,
+    769430201,
+    769430195
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408863:134408876:134408885:134408886:134408889:134408903:134408909:134408913:134408914:134408915:134408957:134408980:134411139:134412287:134412288:134412290",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 61756384,
+  "nodes": [
+    769430202,
+    769430203,
+    769430204
+  ],
+  "tags": {
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408863:134408876:134408885:134408886:134408889:134408903:134408909:134408913:134408914:134408915:134408957:134408980:134411139:134412287:134412288:134412290",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 61756385,
+  "nodes": [
+    769430204,
+    769430211,
+    769430212,
+    769430213,
+    769430198
+  ],
+  "tags": {
+    "bridge": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:source": "tiger_import_dch_v0.6_20070828",
+    "tiger:tlid": "134408863:134408876:134408885:134408886:134408889:134408903:134408909:134408913:134408914:134408915:134408957:134408980:134411139:134412287:134412288:134412290",
+    "tiger:upload_uuid": "bulk_upload.pl-a22947c8-5b6c-4b94-81c6-79ad07c3fd55",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 134398099,
+  "nodes": [
+    1477779169,
+    1477779113,
+    1477779224,
+    1477779222,
+    1477779196,
+    1477779022,
+    1477779040,
+    1477779253,
+    1477779244
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398100,
+  "nodes": [
+    1477779111,
+    1477779094,
+    1477779063,
+    1477779252,
+    1477779080,
+    1477779103,
+    1477779058
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398101,
+  "nodes": [
+    1477779228,
+    1477779168
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398102,
+  "nodes": [
+    1477779103,
+    1477779097
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398103,
+  "nodes": [
+    1477779244,
+    1477779193
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ"
+  }
+},
+{
+  "type": "way",
+  "id": 134398104,
+  "nodes": [
+    1477779118,
+    1477779113
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398106,
+  "nodes": [
+    1477779058,
+    1477779169
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398107,
+  "nodes": [
+    1477779067,
+    103428905
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398108,
+  "nodes": [
+    1477779111,
+    1477779163,
+    1477779257,
+    1477779092,
+    1477779143,
+    1477779159,
+    1477779035,
+    1477779043,
+    1477779108,
+    1477779079,
+    1477779072,
+    1477779174,
+    1477779170,
+    1477779020,
+    1477779093,
+    1477779075,
+    1477779172,
+    1477779087,
+    1477779122,
+    1477779141,
+    1477779044,
+    1477779218,
+    1477779182,
+    1477779130,
+    1477779120,
+    1477779186
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398109,
+  "nodes": [
+    1477779168,
+    1477779191
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398111,
+  "nodes": [
+    1477779028,
+    1477779041,
+    1477779119,
+    1477779067,
+    1477779097,
+    1477779026
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398114,
+  "nodes": [
+    1477779045,
+    1477779116,
+    1477779161,
+    1477779177,
+    1477779118,
+    1477779154
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398118,
+  "nodes": [
+    1477779118,
+    1477779195,
+    1477779070,
+    1477779207
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398120,
+  "nodes": [
+    1477779127,
+    1477779138,
+    1477779200,
+    1477779208
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398122,
+  "nodes": [
+    1477779037,
+    1477779236,
+    1477779144,
+    1477779051,
+    1477779212,
+    1477779158,
+    1477779090,
+    1477779146,
+    1477779148,
+    1477779251,
+    1477779127
+  ],
+  "tags": {
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 134398125,
+  "nodes": [
+    1477779175,
+    1477779039,
+    1477779217,
+    1477779074,
+    1477779037
+  ],
+  "tags": {
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ"
+  }
+},
+{
+  "type": "way",
+  "id": 134398127,
+  "nodes": [
+    1477779026,
+    1477779154
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398130,
+  "nodes": [
+    1477779208,
+    1477779228
+  ],
+  "tags": {
+    "bridge": "yes",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ"
+  }
+},
+{
+  "type": "way",
+  "id": 134398132,
+  "nodes": [
+    1477779191,
+    1477779234,
+    1477779128,
+    1477779147,
+    1477779179,
+    1477779215,
+    1477779198,
+    1477779213,
+    1477779186
+  ],
+  "tags": {
+    "embankment": "yes",
+    "gauge": "1435",
+    "name": "PATCO High Speed Line",
+    "old_railway_operator": "PRSL (PRR)",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tiger:name_base": "Penn Central Railroad"
+  }
+},
+{
+  "type": "way",
+  "id": 134398137,
+  "nodes": [
+    326350576,
+    1477779175
+  ],
+  "tags": {
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "PATCO High Speed Line",
+    "operator": "PATCO",
+    "railway": "subway",
+    "tiger:cfcc": "B11",
+    "tiger:county": "Camden, NJ",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 103331983,
+  "lat": 39.8356570,
+  "lon": -75.0016200
+},
+{
+  "type": "node",
+  "id": 103331991,
+  "lat": 39.8326380,
+  "lon": -74.9994520
+},
+{
+  "type": "node",
+  "id": 103338280,
+  "lat": 39.8360680,
+  "lon": -75.0016320
+},
+{
+  "type": "node",
+  "id": 103338282,
+  "lat": 39.8357680,
+  "lon": -75.0013730
+},
+{
+  "type": "node",
+  "id": 103338284,
+  "lat": 39.8355810,
+  "lon": -75.0011070
+},
+{
+  "type": "node",
+  "id": 103338286,
+  "lat": 39.8355230,
+  "lon": -75.0010240
+},
+{
+  "type": "node",
+  "id": 103338288,
+  "lat": 39.8353200,
+  "lon": -75.0005520
+},
+{
+  "type": "node",
+  "id": 103338289,
+  "lat": 39.8351710,
+  "lon": -75.0000980
+},
+{
+  "type": "node",
+  "id": 103338321,
+  "lat": 39.8326050,
+  "lon": -74.9994120
+},
+{
+  "type": "node",
+  "id": 103331985,
+  "lat": 39.8344864,
+  "lon": -75.0009507
+},
+{
+  "type": "node",
+  "id": 328210862,
+  "lat": 39.8334735,
+  "lon": -75.0001634
+},
+{
+  "type": "node",
+  "id": 448803984,
+  "lat": 39.8339077,
+  "lon": -75.0005096
+},
+{
+  "type": "node",
+  "id": 103332003,
+  "lat": 39.8313570,
+  "lon": -74.9978430
+},
+{
+  "type": "node",
+  "id": 103338290,
+  "lat": 39.8349410,
+  "lon": -74.9993330
+},
+{
+  "type": "node",
+  "id": 103338291,
+  "lat": 39.8346710,
+  "lon": -74.9986110
+},
+{
+  "type": "node",
+  "id": 103338292,
+  "lat": 39.8341210,
+  "lon": -74.9973730
+},
+{
+  "type": "node",
+  "id": 103338293,
+  "lat": 39.8337410,
+  "lon": -74.9966860
+},
+{
+  "type": "node",
+  "id": 103338294,
+  "lat": 39.8332330,
+  "lon": -74.9954570
+},
+{
+  "type": "node",
+  "id": 103338295,
+  "lat": 39.8328190,
+  "lon": -74.9944770
+},
+{
+  "type": "node",
+  "id": 103338296,
+  "lat": 39.8327170,
+  "lon": -74.9942630
+},
+{
+  "type": "node",
+  "id": 103338297,
+  "lat": 39.8325470,
+  "lon": -74.9940570
+},
+{
+  "type": "node",
+  "id": 103338298,
+  "lat": 39.8323490,
+  "lon": -74.9939490
+},
+{
+  "type": "node",
+  "id": 103338300,
+  "lat": 39.8320680,
+  "lon": -74.9938940
+},
+{
+  "type": "node",
+  "id": 103338303,
+  "lat": 39.8317740,
+  "lon": -74.9939190
+},
+{
+  "type": "node",
+  "id": 103338304,
+  "lat": 39.8314310,
+  "lon": -74.9940400
+},
+{
+  "type": "node",
+  "id": 103338305,
+  "lat": 39.8311900,
+  "lon": -74.9942340
+},
+{
+  "type": "node",
+  "id": 103338306,
+  "lat": 39.8309770,
+  "lon": -74.9945340
+},
+{
+  "type": "node",
+  "id": 103338308,
+  "lat": 39.8308720,
+  "lon": -74.9949070
+},
+{
+  "type": "node",
+  "id": 103338310,
+  "lat": 39.8308090,
+  "lon": -74.9953060
+},
+{
+  "type": "node",
+  "id": 103338312,
+  "lat": 39.8307800,
+  "lon": -74.9957140
+},
+{
+  "type": "node",
+  "id": 103338314,
+  "lat": 39.8308190,
+  "lon": -74.9960960
+},
+{
+  "type": "node",
+  "id": 103338316,
+  "lat": 39.8309950,
+  "lon": -74.9967110
+},
+{
+  "type": "node",
+  "id": 103338319,
+  "lat": 39.8315604,
+  "lon": -74.9982850
+},
+{
+  "type": "node",
+  "id": 103338320,
+  "lat": 39.8320740,
+  "lon": -74.9988590
+},
+{
+  "type": "node",
+  "id": 103331970,
+  "lat": 39.8373940,
+  "lon": -75.0023570
+},
+{
+  "type": "node",
+  "id": 103331972,
+  "lat": 39.8369210,
+  "lon": -75.0021460
+},
+{
+  "type": "node",
+  "id": 103331974,
+  "lat": 39.8368640,
+  "lon": -75.0021220
+},
+{
+  "type": "node",
+  "id": 103331976,
+  "lat": 39.8363280,
+  "lon": -75.0018990
+},
+{
+  "type": "node",
+  "id": 103331978,
+  "lat": 39.8363060,
+  "lon": -75.0018950
+},
+{
+  "type": "node",
+  "id": 103331981,
+  "lat": 39.8362930,
+  "lon": -75.0018850
+},
+{
+  "type": "node",
+  "id": 103427914,
+  "lat": 39.8417310,
+  "lon": -75.0041920
+},
+{
+  "type": "node",
+  "id": 103427916,
+  "lat": 39.8403070,
+  "lon": -75.0035570
+},
+{
+  "type": "node",
+  "id": 103427918,
+  "lat": 39.8388770,
+  "lon": -75.0029960
+},
+{
+  "type": "node",
+  "id": 103427920,
+  "lat": 39.8384550,
+  "lon": -75.0028300
+},
+{
+  "type": "node",
+  "id": 103427922,
+  "lat": 39.8382730,
+  "lon": -75.0027490
+},
+{
+  "type": "node",
+  "id": 103427903,
+  "lat": 39.8477129,
+  "lon": -75.0067349
+},
+{
+  "type": "node",
+  "id": 103427908,
+  "lat": 39.8459915,
+  "lon": -75.0060291
+},
+{
+  "type": "node",
+  "id": 103427910,
+  "lat": 39.8452215,
+  "lon": -75.0057035
+},
+{
+  "type": "node",
+  "id": 103427912,
+  "lat": 39.8441699,
+  "lon": -75.0052372
+},
+{
+  "type": "node",
+  "id": 103427884,
+  "lat": 39.8548400,
+  "lon": -75.0091098
+},
+{
+  "type": "node",
+  "id": 103427888,
+  "lat": 39.8538162,
+  "lon": -75.0089854
+},
+{
+  "type": "node",
+  "id": 103427890,
+  "lat": 39.8535932,
+  "lon": -75.0089354
+},
+{
+  "type": "node",
+  "id": 103427892,
+  "lat": 39.8528301,
+  "lon": -75.0087709
+},
+{
+  "type": "node",
+  "id": 103427894,
+  "lat": 39.8527041,
+  "lon": -75.0087429
+},
+{
+  "type": "node",
+  "id": 103427896,
+  "lat": 39.8520310,
+  "lon": -75.0085329
+},
+{
+  "type": "node",
+  "id": 103427898,
+  "lat": 39.8514095,
+  "lon": -75.0082947
+},
+{
+  "type": "node",
+  "id": 103427900,
+  "lat": 39.8508179,
+  "lon": -75.0080455
+},
+{
+  "type": "node",
+  "id": 103427902,
+  "lat": 39.8495373,
+  "lon": -75.0075050
+},
+{
+  "type": "node",
+  "id": 328206758,
+  "lat": 39.8498964,
+  "lon": -75.0076626
+},
+{
+  "type": "node",
+  "id": 328206896,
+  "lat": 39.8500728,
+  "lon": -75.0077366
+},
+{
+  "type": "node",
+  "id": 103427869,
+  "lat": 39.8617730,
+  "lon": -75.0092670
+},
+{
+  "type": "node",
+  "id": 103427870,
+  "lat": 39.8605771,
+  "lon": -75.0092437
+},
+{
+  "type": "node",
+  "id": 103427871,
+  "lat": 39.8597620,
+  "lon": -75.0092040
+},
+{
+  "type": "node",
+  "id": 103427873,
+  "lat": 39.8588930,
+  "lon": -75.0091530
+},
+{
+  "type": "node",
+  "id": 103427874,
+  "lat": 39.8582770,
+  "lon": -75.0091470
+},
+{
+  "type": "node",
+  "id": 103427876,
+  "lat": 39.8577582,
+  "lon": -75.0091531
+},
+{
+  "type": "node",
+  "id": 103427880,
+  "lat": 39.8567571,
+  "lon": -75.0091685
+},
+{
+  "type": "node",
+  "id": 103427882,
+  "lat": 39.8558391,
+  "lon": -75.0091549
+},
+{
+  "type": "node",
+  "id": 328201615,
+  "lat": 39.8594884,
+  "lon": -75.0091880
+},
+{
+  "type": "node",
+  "id": 469917298,
+  "lat": 39.9472339,
+  "lon": -75.1568742
+},
+{
+  "type": "node",
+  "id": 469917297,
+  "lat": 39.9484840,
+  "lon": -75.1669988
+},
+{
+  "type": "node",
+  "id": 471026103,
+  "lat": 39.9478142,
+  "lon": -75.1615750
+},
+{
+  "type": "node",
+  "id": 2878647123,
+  "lat": 39.9477200,
+  "lon": -75.1608111
+},
+{
+  "type": "node",
+  "id": 2878647124,
+  "lat": 39.9477232,
+  "lon": -75.1608367
+},
+{
+  "type": "node",
+  "id": 469917292,
+  "lat": 39.9471330,
+  "lon": -75.1544757
+},
+{
+  "type": "node",
+  "id": 469917305,
+  "lat": 39.9469681,
+  "lon": -75.1547578
+},
+{
+  "type": "node",
+  "id": 471026102,
+  "lat": 39.9470185,
+  "lon": -75.1545634
+},
+{
+  "type": "node",
+  "id": 469917269,
+  "lat": 39.9480480,
+  "lon": -75.1542720
+},
+{
+  "type": "node",
+  "id": 469917294,
+  "lat": 39.9476892,
+  "lon": -75.1543471
+},
+{
+  "type": "node",
+  "id": 471026101,
+  "lat": 39.9511400,
+  "lon": -75.1535888
+},
+{
+  "type": "node",
+  "id": 769430200,
+  "lat": 39.9531349,
+  "lon": -75.1355006
+},
+{
+  "type": "node",
+  "id": 469917228,
+  "lat": 39.9556145,
+  "lon": -75.1504351
+},
+{
+  "type": "node",
+  "id": 469917239,
+  "lat": 39.9552640,
+  "lon": -75.1518940
+},
+{
+  "type": "node",
+  "id": 469917241,
+  "lat": 39.9551680,
+  "lon": -75.1520520
+},
+{
+  "type": "node",
+  "id": 469917243,
+  "lat": 39.9554583,
+  "lon": -75.1514973
+},
+{
+  "type": "node",
+  "id": 469917263,
+  "lat": 39.9553460,
+  "lon": -75.1517240
+},
+{
+  "type": "node",
+  "id": 469917264,
+  "lat": 39.9555734,
+  "lon": -75.1509930
+},
+{
+  "type": "node",
+  "id": 469917265,
+  "lat": 39.9555241,
+  "lon": -75.1512666
+},
+{
+  "type": "node",
+  "id": 469917267,
+  "lat": 39.9555981,
+  "lon": -75.1507516
+},
+{
+  "type": "node",
+  "id": 469917268,
+  "lat": 39.9543400,
+  "lon": -75.1526720
+},
+{
+  "type": "node",
+  "id": 469917270,
+  "lat": 39.9545340,
+  "lon": -75.1526050
+},
+{
+  "type": "node",
+  "id": 469917272,
+  "lat": 39.9543850,
+  "lon": -75.1526600
+},
+{
+  "type": "node",
+  "id": 469917275,
+  "lat": 39.9548140,
+  "lon": -75.1524360
+},
+{
+  "type": "node",
+  "id": 469917276,
+  "lat": 39.9546770,
+  "lon": -75.1525300
+},
+{
+  "type": "node",
+  "id": 469917278,
+  "lat": 39.9550610,
+  "lon": -75.1521960
+},
+{
+  "type": "node",
+  "id": 469917280,
+  "lat": 39.9549420,
+  "lon": -75.1523240
+},
+{
+  "type": "node",
+  "id": 469917229,
+  "lat": 39.9556063,
+  "lon": -75.1501186
+},
+{
+  "type": "node",
+  "id": 769430196,
+  "lat": 39.9552314,
+  "lon": -75.1475600
+},
+{
+  "type": "node",
+  "id": 769430197,
+  "lat": 39.9553925,
+  "lon": -75.1484986
+},
+{
+  "type": "node",
+  "id": 769430195,
+  "lat": 39.9550150,
+  "lon": -75.1463736
+},
+{
+  "type": "node",
+  "id": 769430201,
+  "lat": 39.9540355,
+  "lon": -75.1408114
+},
+{
+  "type": "node",
+  "id": 103326385,
+  "lat": 39.9341129,
+  "lon": -75.1100659
+},
+{
+  "type": "node",
+  "id": 103326387,
+  "lat": 39.9339364,
+  "lon": -75.1099232
+},
+{
+  "type": "node",
+  "id": 103326389,
+  "lat": 39.9337888,
+  "lon": -75.1097886
+},
+{
+  "type": "node",
+  "id": 103326391,
+  "lat": 39.9336781,
+  "lon": -75.1096703
+},
+{
+  "type": "node",
+  "id": 103326392,
+  "lat": 39.9335255,
+  "lon": -75.1095091
+},
+{
+  "type": "node",
+  "id": 103342392,
+  "lat": 39.9307097,
+  "lon": -75.1050008
+},
+{
+  "type": "node",
+  "id": 103342394,
+  "lat": 39.9305907,
+  "lon": -75.1047588
+},
+{
+  "type": "node",
+  "id": 103342396,
+  "lat": 39.9305167,
+  "lon": -75.1046128
+},
+{
+  "type": "node",
+  "id": 103342397,
+  "lat": 39.9303707,
+  "lon": -75.1043338
+},
+{
+  "type": "node",
+  "id": 103427145,
+  "lat": 39.9342363,
+  "lon": -75.1101721
+},
+{
+  "type": "node",
+  "id": 103427147,
+  "lat": 39.9343500,
+  "lon": -75.1102617
+},
+{
+  "type": "node",
+  "id": 103429124,
+  "lat": 39.9331629,
+  "lon": -75.1091255
+},
+{
+  "type": "node",
+  "id": 103429125,
+  "lat": 39.9329865,
+  "lon": -75.1089241
+},
+{
+  "type": "node",
+  "id": 103429126,
+  "lat": 39.9327796,
+  "lon": -75.1086545
+},
+{
+  "type": "node",
+  "id": 103429127,
+  "lat": 39.9325537,
+  "lon": -75.1083576
+},
+{
+  "type": "node",
+  "id": 103429128,
+  "lat": 39.9323320,
+  "lon": -75.1080226
+},
+{
+  "type": "node",
+  "id": 103429129,
+  "lat": 39.9321562,
+  "lon": -75.1077238
+},
+{
+  "type": "node",
+  "id": 103429131,
+  "lat": 39.9318643,
+  "lon": -75.1072252
+},
+{
+  "type": "node",
+  "id": 103429135,
+  "lat": 39.9313570,
+  "lon": -75.1062720
+},
+{
+  "type": "node",
+  "id": 103429137,
+  "lat": 39.9310957,
+  "lon": -75.1057888
+},
+{
+  "type": "node",
+  "id": 1477779020,
+  "lat": 39.9318538,
+  "lon": -75.1073132
+},
+{
+  "type": "node",
+  "id": 1477779044,
+  "lat": 39.9335792,
+  "lon": -75.1096494
+},
+{
+  "type": "node",
+  "id": 1477779072,
+  "lat": 39.9310764,
+  "lon": -75.1058487
+},
+{
+  "type": "node",
+  "id": 1477779075,
+  "lat": 39.9322487,
+  "lon": -75.1079676
+},
+{
+  "type": "node",
+  "id": 1477779079,
+  "lat": 39.9305910,
+  "lon": -75.1048670
+},
+{
+  "type": "node",
+  "id": 1477779087,
+  "lat": 39.9326313,
+  "lon": -75.1085416
+},
+{
+  "type": "node",
+  "id": 1477779093,
+  "lat": 39.9320513,
+  "lon": -75.1076458
+},
+{
+  "type": "node",
+  "id": 1477779108,
+  "lat": 39.9304223,
+  "lon": -75.1045559
+},
+{
+  "type": "node",
+  "id": 1477779120,
+  "lat": 39.9342085,
+  "lon": -75.1102223
+},
+{
+  "type": "node",
+  "id": 1477779122,
+  "lat": 39.9328639,
+  "lon": -75.1088455
+},
+{
+  "type": "node",
+  "id": 1477779130,
+  "lat": 39.9340156,
+  "lon": -75.1100632
+},
+{
+  "type": "node",
+  "id": 1477779141,
+  "lat": 39.9331683,
+  "lon": -75.1092157
+},
+{
+  "type": "node",
+  "id": 1477779170,
+  "lat": 39.9316687,
+  "lon": -75.1069859
+},
+{
+  "type": "node",
+  "id": 1477779172,
+  "lat": 39.9324503,
+  "lon": -75.1082734
+},
+{
+  "type": "node",
+  "id": 1477779174,
+  "lat": 39.9312162,
+  "lon": -75.1061115
+},
+{
+  "type": "node",
+  "id": 1477779182,
+  "lat": 39.9338453,
+  "lon": -75.1099160
+},
+{
+  "type": "node",
+  "id": 1477779218,
+  "lat": 39.9337016,
+  "lon": -75.1097813
+},
+{
+  "type": "node",
+  "id": 103326382,
+  "lat": 39.9401780,
+  "lon": -75.1123600
+},
+{
+  "type": "node",
+  "id": 103326383,
+  "lat": 39.9393751,
+  "lon": -75.1121285
+},
+{
+  "type": "node",
+  "id": 103427156,
+  "lat": 39.9352657,
+  "lon": -75.1108505
+},
+{
+  "type": "node",
+  "id": 103427158,
+  "lat": 39.9354935,
+  "lon": -75.1109545
+},
+{
+  "type": "node",
+  "id": 103427160,
+  "lat": 39.9357759,
+  "lon": -75.1110701
+},
+{
+  "type": "node",
+  "id": 103427162,
+  "lat": 39.9360680,
+  "lon": -75.1111672
+},
+{
+  "type": "node",
+  "id": 103427164,
+  "lat": 39.9362203,
+  "lon": -75.1112262
+},
+{
+  "type": "node",
+  "id": 103427166,
+  "lat": 39.9363641,
+  "lon": -75.1112740
+},
+{
+  "type": "node",
+  "id": 327244885,
+  "lat": 39.9381616,
+  "lon": -75.1118005
+},
+{
+  "type": "node",
+  "id": 327244914,
+  "lat": 39.9368832,
+  "lon": -75.1114298
+},
+{
+  "type": "node",
+  "id": 327245704,
+  "lat": 39.9403655,
+  "lon": -75.1124112
+},
+{
+  "type": "node",
+  "id": 1477779128,
+  "lat": 39.9358767,
+  "lon": -75.1111809
+},
+{
+  "type": "node",
+  "id": 1477779147,
+  "lat": 39.9356463,
+  "lon": -75.1110844
+},
+{
+  "type": "node",
+  "id": 1477779168,
+  "lat": 39.9381677,
+  "lon": -75.1118568
+},
+{
+  "type": "node",
+  "id": 1477779179,
+  "lat": 39.9354160,
+  "lon": -75.1109932
+},
+{
+  "type": "node",
+  "id": 1477779191,
+  "lat": 39.9368885,
+  "lon": -75.1114974
+},
+{
+  "type": "node",
+  "id": 1477779208,
+  "lat": 39.9403476,
+  "lon": -75.1124630
+},
+{
+  "type": "node",
+  "id": 1477779215,
+  "lat": 39.9352021,
+  "lon": -75.1108859
+},
+{
+  "type": "node",
+  "id": 1477779228,
+  "lat": 39.9401543,
+  "lon": -75.1124094
+},
+{
+  "type": "node",
+  "id": 1477779234,
+  "lat": 39.9362491,
+  "lon": -75.1113078
+},
+{
+  "type": "node",
+  "id": 103427150,
+  "lat": 39.9345220,
+  "lon": -75.1103840
+},
+{
+  "type": "node",
+  "id": 103427152,
+  "lat": 39.9348381,
+  "lon": -75.1105831
+},
+{
+  "type": "node",
+  "id": 103427154,
+  "lat": 39.9350104,
+  "lon": -75.1106734
+},
+{
+  "type": "node",
+  "id": 1477779186,
+  "lat": 39.9344887,
+  "lon": -75.1104173
+},
+{
+  "type": "node",
+  "id": 1477779198,
+  "lat": 39.9349965,
+  "lon": -75.1107571
+},
+{
+  "type": "node",
+  "id": 1477779213,
+  "lat": 39.9347826,
+  "lon": -75.1106337
+},
+{
+  "type": "node",
+  "id": 103428899,
+  "lat": 39.9276407,
+  "lon": -75.0994669
+},
+{
+  "type": "node",
+  "id": 332247442,
+  "lat": 39.9270674,
+  "lon": -75.0985654
+},
+{
+  "type": "node",
+  "id": 1477779063,
+  "lat": 39.9275633,
+  "lon": -75.0994382
+},
+{
+  "type": "node",
+  "id": 1477779252,
+  "lat": 39.9271849,
+  "lon": -75.0988535
+},
+{
+  "type": "node",
+  "id": 103428905,
+  "lat": 39.9257459,
+  "lon": -75.0964551
+},
+{
+  "type": "node",
+  "id": 103428909,
+  "lat": 39.9239364,
+  "lon": -75.0936843
+},
+{
+  "type": "node",
+  "id": 103428911,
+  "lat": 39.9232180,
+  "lon": -75.0925449
+},
+{
+  "type": "node",
+  "id": 103428913,
+  "lat": 39.9228490,
+  "lon": -75.0919270
+},
+{
+  "type": "node",
+  "id": 326538928,
+  "lat": 39.9247229,
+  "lon": -75.0949243
+},
+{
+  "type": "node",
+  "id": 326538957,
+  "lat": 39.9248737,
+  "lon": -75.0951539
+},
+{
+  "type": "node",
+  "id": 1477779022,
+  "lat": 39.9226804,
+  "lon": -75.0918476
+},
+{
+  "type": "node",
+  "id": 1477779026,
+  "lat": 39.9248153,
+  "lon": -75.0951842
+},
+{
+  "type": "node",
+  "id": 1477779028,
+  "lat": 39.9262963,
+  "lon": -75.0974319
+},
+{
+  "type": "node",
+  "id": 1477779040,
+  "lat": 39.9225364,
+  "lon": -75.0915740
+},
+{
+  "type": "node",
+  "id": 1477779041,
+  "lat": 39.9255969,
+  "lon": -75.0963912
+},
+{
+  "type": "node",
+  "id": 1477779045,
+  "lat": 39.9228696,
+  "lon": -75.0920514
+},
+{
+  "type": "node",
+  "id": 1477779058,
+  "lat": 39.9247824,
+  "lon": -75.0952110
+},
+{
+  "type": "node",
+  "id": 1477779067,
+  "lat": 39.9252678,
+  "lon": -75.0958280
+},
+{
+  "type": "node",
+  "id": 1477779070,
+  "lat": 39.9237498,
+  "lon": -75.0934569
+},
+{
+  "type": "node",
+  "id": 1477779080,
+  "lat": 39.9262593,
+  "lon": -75.0974641
+},
+{
+  "type": "node",
+  "id": 1477779097,
+  "lat": 39.9249305,
+  "lon": -75.0953827
+},
+{
+  "type": "node",
+  "id": 1477779103,
+  "lat": 39.9255352,
+  "lon": -75.0963805
+},
+{
+  "type": "node",
+  "id": 1477779113,
+  "lat": 39.9238115,
+  "lon": -75.0937144
+},
+{
+  "type": "node",
+  "id": 1477779116,
+  "lat": 39.9234906,
+  "lon": -75.0930867
+},
+{
+  "type": "node",
+  "id": 1477779118,
+  "lat": 39.9241406,
+  "lon": -75.0941328
+},
+{
+  "type": "node",
+  "id": 1477779119,
+  "lat": 39.9254653,
+  "lon": -75.0961766
+},
+{
+  "type": "node",
+  "id": 1477779154,
+  "lat": 39.9246777,
+  "lon": -75.0949570
+},
+{
+  "type": "node",
+  "id": 1477779161,
+  "lat": 39.9236181,
+  "lon": -75.0933228
+},
+{
+  "type": "node",
+  "id": 1477779169,
+  "lat": 39.9246507,
+  "lon": -75.0950072
+},
+{
+  "type": "node",
+  "id": 1477779177,
+  "lat": 39.9238321,
+  "lon": -75.0936500
+},
+{
+  "type": "node",
+  "id": 1477779195,
+  "lat": 39.9238691,
+  "lon": -75.0936554
+},
+{
+  "type": "node",
+  "id": 1477779196,
+  "lat": 39.9231000,
+  "lon": -75.0925878
+},
+{
+  "type": "node",
+  "id": 1477779207,
+  "lat": 39.9234712,
+  "lon": -75.0929465
+},
+{
+  "type": "node",
+  "id": 1477779222,
+  "lat": 39.9233016,
+  "lon": -75.0929258
+},
+{
+  "type": "node",
+  "id": 1477779224,
+  "lat": 39.9235235,
+  "lon": -75.0932691
+},
+{
+  "type": "node",
+  "id": 1477779253,
+  "lat": 39.9223800,
+  "lon": -75.0912682
+},
+{
+  "type": "node",
+  "id": 103427651,
+  "lat": 39.9211730,
+  "lon": -75.0882790
+},
+{
+  "type": "node",
+  "id": 103427653,
+  "lat": 39.9211510,
+  "lon": -75.0882160
+},
+{
+  "type": "node",
+  "id": 103427655,
+  "lat": 39.9209990,
+  "lon": -75.0877550
+},
+{
+  "type": "node",
+  "id": 103427661,
+  "lat": 39.9206740,
+  "lon": -75.0867750
+},
+{
+  "type": "node",
+  "id": 103427662,
+  "lat": 39.9203890,
+  "lon": -75.0858760
+},
+{
+  "type": "node",
+  "id": 103427663,
+  "lat": 39.9202640,
+  "lon": -75.0854840
+},
+{
+  "type": "node",
+  "id": 326539572,
+  "lat": 39.9208155,
+  "lon": -75.0872033
+},
+{
+  "type": "node",
+  "id": 326539585,
+  "lat": 39.9209356,
+  "lon": -75.0875640
+},
+{
+  "type": "node",
+  "id": 103427664,
+  "lat": 39.9199630,
+  "lon": -75.0845060
+},
+{
+  "type": "node",
+  "id": 103427666,
+  "lat": 39.9199110,
+  "lon": -75.0843380
+},
+{
+  "type": "node",
+  "id": 103427667,
+  "lat": 39.9196020,
+  "lon": -75.0833640
+},
+{
+  "type": "node",
+  "id": 103427669,
+  "lat": 39.9191630,
+  "lon": -75.0819840
+},
+{
+  "type": "node",
+  "id": 103427671,
+  "lat": 39.9188470,
+  "lon": -75.0809910
+},
+{
+  "type": "node",
+  "id": 103427673,
+  "lat": 39.9185280,
+  "lon": -75.0799860
+},
+{
+  "type": "node",
+  "id": 103427675,
+  "lat": 39.9183260,
+  "lon": -75.0793520
+},
+{
+  "type": "node",
+  "id": 103427677,
+  "lat": 39.9182340,
+  "lon": -75.0790620
+},
+{
+  "type": "node",
+  "id": 103427679,
+  "lat": 39.9181070,
+  "lon": -75.0786620
+},
+{
+  "type": "node",
+  "id": 326551303,
+  "lat": 39.9191347,
+  "lon": -75.0818952
+},
+{
+  "type": "node",
+  "id": 326551330,
+  "lat": 39.9192003,
+  "lon": -75.0821013
+},
+{
+  "type": "node",
+  "id": 103326498,
+  "lat": 39.9217578,
+  "lon": -75.0897305
+},
+{
+  "type": "node",
+  "id": 103427647,
+  "lat": 39.9215610,
+  "lon": -75.0892950
+},
+{
+  "type": "node",
+  "id": 103427648,
+  "lat": 39.9213190,
+  "lon": -75.0886950
+},
+{
+  "type": "node",
+  "id": 103428915,
+  "lat": 39.9221280,
+  "lon": -75.0905450
+},
+{
+  "type": "node",
+  "id": 103428917,
+  "lat": 39.9220789,
+  "lon": -75.0904335
+},
+{
+  "type": "node",
+  "id": 326539167,
+  "lat": 39.9219775,
+  "lon": -75.0902374
+},
+{
+  "type": "node",
+  "id": 1477779193,
+  "lat": 39.9217218,
+  "lon": -75.0897718
+},
+{
+  "type": "node",
+  "id": 1477779244,
+  "lat": 39.9219357,
+  "lon": -75.0902543
+},
+{
+  "type": "node",
+  "id": 103428870,
+  "lat": 39.9298736,
+  "lon": -75.1033749
+},
+{
+  "type": "node",
+  "id": 103428875,
+  "lat": 39.9293540,
+  "lon": -75.1023700
+},
+{
+  "type": "node",
+  "id": 103428879,
+  "lat": 39.9292269,
+  "lon": -75.1021223
+},
+{
+  "type": "node",
+  "id": 103428883,
+  "lat": 39.9289381,
+  "lon": -75.1015735
+},
+{
+  "type": "node",
+  "id": 103428887,
+  "lat": 39.9285512,
+  "lon": -75.1009035
+},
+{
+  "type": "node",
+  "id": 103428890,
+  "lat": 39.9284050,
+  "lon": -75.1006632
+},
+{
+  "type": "node",
+  "id": 103428893,
+  "lat": 39.9282010,
+  "lon": -75.1003287
+},
+{
+  "type": "node",
+  "id": 332247614,
+  "lat": 39.9286510,
+  "lon": -75.1010650
+},
+{
+  "type": "node",
+  "id": 1477779035,
+  "lat": 39.9297888,
+  "lon": -75.1033059
+},
+{
+  "type": "node",
+  "id": 1477779043,
+  "lat": 39.9299451,
+  "lon": -75.1036171
+},
+{
+  "type": "node",
+  "id": 1477779092,
+  "lat": 39.9289373,
+  "lon": -75.1016805
+},
+{
+  "type": "node",
+  "id": 1477779094,
+  "lat": 39.9279500,
+  "lon": -75.1000283
+},
+{
+  "type": "node",
+  "id": 1477779111,
+  "lat": 39.9283696,
+  "lon": -75.1007149
+},
+{
+  "type": "node",
+  "id": 1477779143,
+  "lat": 39.9292335,
+  "lon": -75.1022277
+},
+{
+  "type": "node",
+  "id": 1477779159,
+  "lat": 39.9293345,
+  "lon": -75.1024297
+},
+{
+  "type": "node",
+  "id": 1477779163,
+  "lat": 39.9285300,
+  "lon": -75.1009724
+},
+{
+  "type": "node",
+  "id": 1477779257,
+  "lat": 39.9286206,
+  "lon": -75.1011334
+},
+{
+  "type": "node",
+  "id": 103336382,
+  "lat": 39.9440764,
+  "lon": -75.1213025
+},
+{
+  "type": "node",
+  "id": 103336385,
+  "lat": 39.9441855,
+  "lon": -75.1213791
+},
+{
+  "type": "node",
+  "id": 103336387,
+  "lat": 39.9442793,
+  "lon": -75.1213741
+},
+{
+  "type": "node",
+  "id": 103336389,
+  "lat": 39.9445737,
+  "lon": -75.1213219
+},
+{
+  "type": "node",
+  "id": 326350576,
+  "lat": 39.9429564,
+  "lon": -75.1194042
+},
+{
+  "type": "node",
+  "id": 326350578,
+  "lat": 39.9430756,
+  "lon": -75.1199152
+},
+{
+  "type": "node",
+  "id": 326350579,
+  "lat": 39.9432695,
+  "lon": -75.1202689
+},
+{
+  "type": "node",
+  "id": 326350580,
+  "lat": 39.9434157,
+  "lon": -75.1204560
+},
+{
+  "type": "node",
+  "id": 326350581,
+  "lat": 39.9437866,
+  "lon": -75.1209368
+},
+{
+  "type": "node",
+  "id": 469917199,
+  "lat": 39.9451084,
+  "lon": -75.1211750
+},
+{
+  "type": "node",
+  "id": 769430198,
+  "lat": 39.9513737,
+  "lon": -75.1258302
+},
+{
+  "type": "node",
+  "id": 769430199,
+  "lat": 39.9519012,
+  "lon": -75.1287629
+},
+{
+  "type": "node",
+  "id": 769430202,
+  "lat": 39.9500301,
+  "lon": -75.1208933
+},
+{
+  "type": "node",
+  "id": 769430203,
+  "lat": 39.9503057,
+  "lon": -75.1214190
+},
+{
+  "type": "node",
+  "id": 769430204,
+  "lat": 39.9505154,
+  "lon": -75.1218804
+},
+{
+  "type": "node",
+  "id": 769430205,
+  "lat": 39.9482206,
+  "lon": -75.1201745
+},
+{
+  "type": "node",
+  "id": 769430206,
+  "lat": 39.9486113,
+  "lon": -75.1200940
+},
+{
+  "type": "node",
+  "id": 769430207,
+  "lat": 39.9490102,
+  "lon": -75.1201101
+},
+{
+  "type": "node",
+  "id": 769430208,
+  "lat": 39.9493269,
+  "lon": -75.1202388
+},
+{
+  "type": "node",
+  "id": 769430209,
+  "lat": 39.9496312,
+  "lon": -75.1204695
+},
+{
+  "type": "node",
+  "id": 769430210,
+  "lat": 39.9499026,
+  "lon": -75.1207216
+},
+{
+  "type": "node",
+  "id": 769430211,
+  "lat": 39.9506922,
+  "lon": -75.1223685
+},
+{
+  "type": "node",
+  "id": 769430212,
+  "lat": 39.9507786,
+  "lon": -75.1226528
+},
+{
+  "type": "node",
+  "id": 769430213,
+  "lat": 39.9508814,
+  "lon": -75.1230927
+},
+{
+  "type": "node",
+  "id": 103326354,
+  "lat": 39.9428851,
+  "lon": -75.1147209
+},
+{
+  "type": "node",
+  "id": 103326356,
+  "lat": 39.9428012,
+  "lon": -75.1143813
+},
+{
+  "type": "node",
+  "id": 103326359,
+  "lat": 39.9426984,
+  "lon": -75.1141401
+},
+{
+  "type": "node",
+  "id": 103326363,
+  "lat": 39.9425703,
+  "lon": -75.1138842
+},
+{
+  "type": "node",
+  "id": 103326367,
+  "lat": 39.9423630,
+  "lon": -75.1135830
+},
+{
+  "type": "node",
+  "id": 103326369,
+  "lat": 39.9422710,
+  "lon": -75.1134820
+},
+{
+  "type": "node",
+  "id": 103326373,
+  "lat": 39.9421115,
+  "lon": -75.1133076
+},
+{
+  "type": "node",
+  "id": 103326375,
+  "lat": 39.9418645,
+  "lon": -75.1130432
+},
+{
+  "type": "node",
+  "id": 103326379,
+  "lat": 39.9415790,
+  "lon": -75.1128412
+},
+{
+  "type": "node",
+  "id": 103326381,
+  "lat": 39.9414789,
+  "lon": -75.1127884
+},
+{
+  "type": "node",
+  "id": 326350574,
+  "lat": 39.9429712,
+  "lon": -75.1164569
+},
+{
+  "type": "node",
+  "id": 326350656,
+  "lat": 39.9429581,
+  "lon": -75.1157445
+},
+{
+  "type": "node",
+  "id": 326350658,
+  "lat": 39.9429529,
+  "lon": -75.1153928
+},
+{
+  "type": "node",
+  "id": 326350659,
+  "lat": 39.9429400,
+  "lon": -75.1151133
+},
+{
+  "type": "node",
+  "id": 518307963,
+  "lat": 39.9416632,
+  "lon": -75.1129021
+},
+{
+  "type": "node",
+  "id": 1477779037,
+  "lat": 39.9428359,
+  "lon": -75.1147536
+},
+{
+  "type": "node",
+  "id": 1477779039,
+  "lat": 39.9429223,
+  "lon": -75.1153330
+},
+{
+  "type": "node",
+  "id": 1477779051,
+  "lat": 39.9426303,
+  "lon": -75.1140992
+},
+{
+  "type": "node",
+  "id": 1477779074,
+  "lat": 39.9428740,
+  "lon": -75.1149162
+},
+{
+  "type": "node",
+  "id": 1477779090,
+  "lat": 39.9422560,
+  "lon": -75.1135413
+},
+{
+  "type": "node",
+  "id": 1477779123,
+  "lat": 39.9413218,
+  "lon": -75.1127143
+},
+{
+  "type": "node",
+  "id": 1477779127,
+  "lat": 39.9414705,
+  "lon": -75.1128492
+},
+{
+  "type": "node",
+  "id": 1477779138,
+  "lat": 39.9412835,
+  "lon": -75.1127650
+},
+{
+  "type": "node",
+  "id": 1477779144,
+  "lat": 39.9427084,
+  "lon": -75.1142815
+},
+{
+  "type": "node",
+  "id": 1477779146,
+  "lat": 39.9419105,
+  "lon": -75.1131604
+},
+{
+  "type": "node",
+  "id": 1477779148,
+  "lat": 39.9417789,
+  "lon": -75.1130477
+},
+{
+  "type": "node",
+  "id": 1477779158,
+  "lat": 39.9423671,
+  "lon": -75.1136807
+},
+{
+  "type": "node",
+  "id": 1477779175,
+  "lat": 39.9429429,
+  "lon": -75.1164595
+},
+{
+  "type": "node",
+  "id": 1477779200,
+  "lat": 39.9410880,
+  "lon": -75.1126990
+},
+{
+  "type": "node",
+  "id": 1477779212,
+  "lat": 39.9425398,
+  "lon": -75.1139275
+},
+{
+  "type": "node",
+  "id": 1477779217,
+  "lat": 39.9428993,
+  "lon": -75.1151152
+},
+{
+  "type": "node",
+  "id": 1477779220,
+  "lat": 39.9429122,
+  "lon": -75.1148641
+},
+{
+  "type": "node",
+  "id": 1477779236,
+  "lat": 39.9427866,
+  "lon": -75.1145229
+},
+{
+  "type": "node",
+  "id": 1477779251,
+  "lat": 39.9415939,
+  "lon": -75.1129083
+},
+{
+  "type": "node",
+  "id": 103427810,
+  "lat": 39.8819157,
+  "lon": -75.0266305
+},
+{
+  "type": "node",
+  "id": 103427796,
+  "lat": 39.8882924,
+  "lon": -75.0324005
+},
+{
+  "type": "node",
+  "id": 103427797,
+  "lat": 39.8876742,
+  "lon": -75.0321425
+},
+{
+  "type": "node",
+  "id": 103427798,
+  "lat": 39.8870714,
+  "lon": -75.0318284
+},
+{
+  "type": "node",
+  "id": 103427799,
+  "lat": 39.8867056,
+  "lon": -75.0316178
+},
+{
+  "type": "node",
+  "id": 103427800,
+  "lat": 39.8862176,
+  "lon": -75.0312745
+},
+{
+  "type": "node",
+  "id": 103427801,
+  "lat": 39.8860598,
+  "lon": -75.0311528
+},
+{
+  "type": "node",
+  "id": 103427803,
+  "lat": 39.8856625,
+  "lon": -75.0308431
+},
+{
+  "type": "node",
+  "id": 103427805,
+  "lat": 39.8853359,
+  "lon": -75.0305273
+},
+{
+  "type": "node",
+  "id": 103427807,
+  "lat": 39.8850496,
+  "lon": -75.0302651
+},
+{
+  "type": "node",
+  "id": 103427808,
+  "lat": 39.8847373,
+  "lon": -75.0299308
+},
+{
+  "type": "node",
+  "id": 103427809,
+  "lat": 39.8829341,
+  "lon": -75.0278359
+},
+{
+  "type": "node",
+  "id": 328184307,
+  "lat": 39.8848392,
+  "lon": -75.0300499
+},
+{
+  "type": "node",
+  "id": 328184310,
+  "lat": 39.8846343,
+  "lon": -75.0298106
+},
+{
+  "type": "node",
+  "id": 103427695,
+  "lat": 39.9146023,
+  "lon": -75.0676599
+},
+{
+  "type": "node",
+  "id": 103427699,
+  "lat": 39.9136717,
+  "lon": -75.0647989
+},
+{
+  "type": "node",
+  "id": 103427705,
+  "lat": 39.9127069,
+  "lon": -75.0616500
+},
+{
+  "type": "node",
+  "id": 103427709,
+  "lat": 39.9108683,
+  "lon": -75.0558123
+},
+{
+  "type": "node",
+  "id": 103427711,
+  "lat": 39.9105680,
+  "lon": -75.0548449
+},
+{
+  "type": "node",
+  "id": 103427713,
+  "lat": 39.9096990,
+  "lon": -75.0522440
+},
+{
+  "type": "node",
+  "id": 103427714,
+  "lat": 39.9095530,
+  "lon": -75.0518620
+},
+{
+  "type": "node",
+  "id": 326553556,
+  "lat": 39.9112235,
+  "lon": -75.0568692
+},
+{
+  "type": "node",
+  "id": 103427707,
+  "lat": 39.9114814,
+  "lon": -75.0577675
+},
+{
+  "type": "node",
+  "id": 103427762,
+  "lat": 39.9014171,
+  "lon": -75.0393063
+},
+{
+  "type": "node",
+  "id": 103427764,
+  "lat": 39.9010964,
+  "lon": -75.0390818
+},
+{
+  "type": "node",
+  "id": 103427766,
+  "lat": 39.9007298,
+  "lon": -75.0388110
+},
+{
+  "type": "node",
+  "id": 103427768,
+  "lat": 39.9006025,
+  "lon": -75.0387201
+},
+{
+  "type": "node",
+  "id": 103427784,
+  "lat": 39.8948252,
+  "lon": -75.0352005
+},
+{
+  "type": "node",
+  "id": 103427786,
+  "lat": 39.8942540,
+  "lon": -75.0348767
+},
+{
+  "type": "node",
+  "id": 103427788,
+  "lat": 39.8941801,
+  "lon": -75.0348341
+},
+{
+  "type": "node",
+  "id": 103427790,
+  "lat": 39.8935101,
+  "lon": -75.0344822
+},
+{
+  "type": "node",
+  "id": 103427792,
+  "lat": 39.8925210,
+  "lon": -75.0340750
+},
+{
+  "type": "node",
+  "id": 103427794,
+  "lat": 39.8921586,
+  "lon": -75.0339153
+},
+{
+  "type": "node",
+  "id": 103427795,
+  "lat": 39.8903303,
+  "lon": -75.0331995
+},
+{
+  "type": "node",
+  "id": 103427770,
+  "lat": 39.9002924,
+  "lon": -75.0385252
+},
+{
+  "type": "node",
+  "id": 103427772,
+  "lat": 39.8999060,
+  "lon": -75.0383093
+},
+{
+  "type": "node",
+  "id": 103427774,
+  "lat": 39.8994280,
+  "lon": -75.0380280
+},
+{
+  "type": "node",
+  "id": 103427776,
+  "lat": 39.8988205,
+  "lon": -75.0376865
+},
+{
+  "type": "node",
+  "id": 103427778,
+  "lat": 39.8970297,
+  "lon": -75.0367061
+},
+{
+  "type": "node",
+  "id": 103427780,
+  "lat": 39.8966724,
+  "lon": -75.0364264
+},
+{
+  "type": "node",
+  "id": 103427782,
+  "lat": 39.8960878,
+  "lon": -75.0360216
+},
+{
+  "type": "node",
+  "id": 103427724,
+  "lat": 39.9079490,
+  "lon": -75.0481200
+},
+{
+  "type": "node",
+  "id": 103427726,
+  "lat": 39.9076580,
+  "lon": -75.0475660
+},
+{
+  "type": "node",
+  "id": 103427727,
+  "lat": 39.9075990,
+  "lon": -75.0474550
+},
+{
+  "type": "node",
+  "id": 103427729,
+  "lat": 39.9072750,
+  "lon": -75.0468750
+},
+{
+  "type": "node",
+  "id": 103427731,
+  "lat": 39.9069520,
+  "lon": -75.0463290
+},
+{
+  "type": "node",
+  "id": 103427733,
+  "lat": 39.9064770,
+  "lon": -75.0455520
+},
+{
+  "type": "node",
+  "id": 103427735,
+  "lat": 39.9063830,
+  "lon": -75.0454020
+},
+{
+  "type": "node",
+  "id": 103427737,
+  "lat": 39.9063350,
+  "lon": -75.0453280
+},
+{
+  "type": "node",
+  "id": 103427739,
+  "lat": 39.9063280,
+  "lon": -75.0453150
+},
+{
+  "type": "node",
+  "id": 103348223,
+  "lat": 39.9031890,
+  "lon": -75.0410260
+},
+{
+  "type": "node",
+  "id": 103427740,
+  "lat": 39.9062330,
+  "lon": -75.0451515
+},
+{
+  "type": "node",
+  "id": 103427741,
+  "lat": 39.9055840,
+  "lon": -75.0441860
+},
+{
+  "type": "node",
+  "id": 103427742,
+  "lat": 39.9050830,
+  "lon": -75.0434680
+},
+{
+  "type": "node",
+  "id": 103427744,
+  "lat": 39.9047070,
+  "lon": -75.0429500
+},
+{
+  "type": "node",
+  "id": 103427746,
+  "lat": 39.9043850,
+  "lon": -75.0425080
+},
+{
+  "type": "node",
+  "id": 103427748,
+  "lat": 39.9043130,
+  "lon": -75.0424070
+},
+{
+  "type": "node",
+  "id": 103427750,
+  "lat": 39.9040360,
+  "lon": -75.0420190
+},
+{
+  "type": "node",
+  "id": 103427752,
+  "lat": 39.9034150,
+  "lon": -75.0412910
+},
+{
+  "type": "node",
+  "id": 103427754,
+  "lat": 39.9029000,
+  "lon": -75.0406810
+},
+{
+  "type": "node",
+  "id": 103427755,
+  "lat": 39.9025356,
+  "lon": -75.0402986
+},
+{
+  "type": "node",
+  "id": 103427756,
+  "lat": 39.9022516,
+  "lon": -75.0400315
+},
+{
+  "type": "node",
+  "id": 103427758,
+  "lat": 39.9018741,
+  "lon": -75.0396888
+},
+{
+  "type": "node",
+  "id": 103427760,
+  "lat": 39.9016247,
+  "lon": -75.0394695
+},
+{
+  "type": "node",
+  "id": 103427715,
+  "lat": 39.9092140,
+  "lon": -75.0509780
+},
+{
+  "type": "node",
+  "id": 103427716,
+  "lat": 39.9091622,
+  "lon": -75.0508607
+},
+{
+  "type": "node",
+  "id": 103427717,
+  "lat": 39.9088810,
+  "lon": -75.0501430
+},
+{
+  "type": "node",
+  "id": 103427718,
+  "lat": 39.9088330,
+  "lon": -75.0500250
+},
+{
+  "type": "node",
+  "id": 103427719,
+  "lat": 39.9085780,
+  "lon": -75.0494380
+},
+{
+  "type": "node",
+  "id": 103427721,
+  "lat": 39.9082650,
+  "lon": -75.0487610
+},
+{
+  "type": "node",
+  "id": 469998216,
+  "lat": 39.9092746,
+  "lon": -75.0511187
+},
+{
+  "type": "node",
+  "id": 103427835,
+  "lat": 39.8749120,
+  "lon": -75.0152410
+},
+{
+  "type": "node",
+  "id": 103427841,
+  "lat": 39.8741376,
+  "lon": -75.0143300
+},
+{
+  "type": "node",
+  "id": 103427843,
+  "lat": 39.8739022,
+  "lon": -75.0140936
+},
+{
+  "type": "node",
+  "id": 103427845,
+  "lat": 39.8732504,
+  "lon": -75.0134632
+},
+{
+  "type": "node",
+  "id": 103427847,
+  "lat": 39.8722568,
+  "lon": -75.0125864
+},
+{
+  "type": "node",
+  "id": 103427857,
+  "lat": 39.8683912,
+  "lon": -75.0102624
+},
+{
+  "type": "node",
+  "id": 103427859,
+  "lat": 39.8680212,
+  "lon": -75.0101010
+},
+{
+  "type": "node",
+  "id": 103427861,
+  "lat": 39.8674125,
+  "lon": -75.0099229
+},
+{
+  "type": "node",
+  "id": 103427863,
+  "lat": 39.8665205,
+  "lon": -75.0096643
+},
+{
+  "type": "node",
+  "id": 103427865,
+  "lat": 39.8656212,
+  "lon": -75.0094561
+},
+{
+  "type": "node",
+  "id": 103427867,
+  "lat": 39.8646150,
+  "lon": -75.0093430
+},
+{
+  "type": "node",
+  "id": 103427868,
+  "lat": 39.8624720,
+  "lon": -75.0092990
+},
+{
+  "type": "node",
+  "id": 103427851,
+  "lat": 39.8718091,
+  "lon": -75.0122622
+},
+{
+  "type": "node",
+  "id": 103427853,
+  "lat": 39.8708250,
+  "lon": -75.0114550
+},
+{
+  "type": "node",
+  "id": 103427855,
+  "lat": 39.8695090,
+  "lon": -75.0106930
+},
+{
+  "type": "node",
+  "id": 103427856,
+  "lat": 39.8693940,
+  "lon": -75.0106260
+},
+{
+  "type": "node",
+  "id": 103427811,
+  "lat": 39.8808718,
+  "lon": -75.0252361
+},
+{
+  "type": "node",
+  "id": 103427812,
+  "lat": 39.8794900,
+  "lon": -75.0231580
+},
+{
+  "type": "node",
+  "id": 103427814,
+  "lat": 39.8788710,
+  "lon": -75.0220260
+},
+{
+  "type": "node",
+  "id": 103427816,
+  "lat": 39.8785330,
+  "lon": -75.0213680
+},
+{
+  "type": "node",
+  "id": 103427818,
+  "lat": 39.8771006,
+  "lon": -75.0187312
+},
+{
+  "type": "node",
+  "id": 103427820,
+  "lat": 39.8764045,
+  "lon": -75.0174883
+},
+{
+  "type": "node",
+  "id": 103427822,
+  "lat": 39.8756702,
+  "lon": -75.0162998
+},
+{
+  "type": "node",
+  "id": 103427681,
+  "lat": 39.9177210,
+  "lon": -75.0774480
+},
+{
+  "type": "node",
+  "id": 103427683,
+  "lat": 39.9170800,
+  "lon": -75.0754310
+},
+{
+  "type": "node",
+  "id": 103427685,
+  "lat": 39.9167250,
+  "lon": -75.0743140
+},
+{
+  "type": "node",
+  "id": 103427687,
+  "lat": 39.9166280,
+  "lon": -75.0740090
+},
+{
+  "type": "node",
+  "id": 103427689,
+  "lat": 39.9163230,
+  "lon": -75.0730400
+},
+{
+  "type": "node",
+  "id": 326551843,
+  "lat": 39.9176808,
+  "lon": -75.0773214
+},
+{
+  "type": "node",
+  "id": 326551904,
+  "lat": 39.9177665,
+  "lon": -75.0775910
+},
+{
+  "type": "node",
+  "id": 103427691,
+  "lat": 39.9155832,
+  "lon": -75.0707910
+},
+{
+  "type": "node",
+  "id": 326552946,
+  "lat": 39.9156598,
+  "lon": -75.0710191
+}
+
+  ]
+}
+
