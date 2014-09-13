@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import csv
+import os.path
 
 wstops = range(240,253) # 240-252 are Lindenwold to 15th-16th & Locust (Westbound)
 estops = range(240,253)
@@ -18,8 +19,21 @@ special_directions = {'eastbound':[1,"LINDENWOLD SPECIAL"],
 stop_times_header = ['trip_id','arrival_time','departure_time','stop_id',
   'stop_sequence','pickup_type','drop_off_type']
 trips_header = ['route_id','service_id','trip_id','trip_headsign',
-                'direction_id', 'shape_id']
+                'direction_id', 'shape_id', 'bikes_allowed']
 tripId = 4151 # start number for trips (arbitrary)
+
+# read in times when bikes are banned
+bike_ban = {}
+if os.path.isfile('bike_ban_times.csv'):
+  with open('bike_ban_times.csv', 'rb') as bikef:
+    rdr = csv.reader(bikef)
+    # skip header row
+    rdr.next()
+    # { 'direction_id': ('service_id', 'start_time', 'end_time') }
+    for row in rdr:
+      bike_ban[int(row[0])] = (int(row[1]), int(row[2].replace(':','')), int(row[3].replace(':','')))
+else:
+  print('No bike ban times file found.')
 
 def process_table(direction, service_days):
   global tripId
@@ -32,7 +46,10 @@ def process_table(direction, service_days):
     x = 0
     this_stop = 0
     isSpecial = False
-    startMidnight = False   
+    startMidnight = False
+    bikesAllowed = 1
+    directionId = None
+    headsign = None
     startFld = flds[0].replace('X', '').replace('W', '').strip().strip('"').strip()
     if startFld.startswith('12') and startFld.endswith('A'):
       startMidnight = True  # use '24' for stop times after midnight
@@ -70,13 +87,35 @@ def process_table(direction, service_days):
         # arrow indicating skipped stops (or empty field if multiple skipped)
         isSpecial = True
         this_stop +=1
+
     # print(isSpecial, len(times), times)
+    serviceId = service_ids[service_days]
     if isSpecial:
-      wtrips.writerow((12,service_ids[service_days],tripId, special_directions[direction][1],
-                      special_directions[direction][0], special_directions[direction][0]))
+      directionId = special_directions[direction][0]
+      headsign = special_directions[direction][1]
     else:
-      wtrips.writerow((12,service_ids[service_days],tripId, directions[direction][1],
-                      directions[direction][0], directions[direction][0]))
+      directionId = directions[direction][0]
+      headsign = directions[direction][1]
+
+    # check if this trip falls within the bike ban times (otherwise bikes are allowed)
+    if bike_ban.has_key(directionId):
+      ban = bike_ban[directionId]
+      if serviceId == ban[0]:
+        # on banned direction and service day; check times
+        start_stop = 0
+        while not times.has_key(directions[direction][2][start_stop]):
+          start_stop += 1
+        start_str = times[directions[direction][2][start_stop]]
+        end_str = times[directions[direction][2][this_stop-1]]
+        start_trip = int(start_str.replace(':', ''))
+        end_trip = int(end_str.replace(':', ''))
+        # if either the start or end time for the trip fall within the ban window, bike ban trip
+        if (start_trip >= ban[1] and start_trip <= ban[2]) or (end_trip >= ban[1] and end_trip <= ban[2]):
+          print('Trip %s from %s to %s has a bike ban.' % (tripId, start_str, end_str))
+          bikesAllowed = 2
+
+    wtrips.writerow((12, serviceId, tripId, headsign, directionId, directionId, bikesAllowed))
+
     tripId += 1
   inf.close()
 
