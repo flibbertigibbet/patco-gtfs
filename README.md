@@ -34,4 +34,4 @@ To use:
         
 6.  If the fare prices need updating, modify the fare\_attributes.txt file directly in the gtfs\_files directory.
 
-7.  Zip the contents of the gtfs\_files directory, and validate the results with [Google's GTFS validator](https://code.google.com/p/googletransitdatafeed/wiki/FeedValidator).
+7.  Zip the contents of the gtfs\_files directory, and validate the results with [Google's GTFS validator](https://github.com/google/transitfeed/wiki/FeedValidator).
