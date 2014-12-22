@@ -8,7 +8,7 @@ estops.reverse() # Philly to Lindenwold
 route_id = 12
 
 # map the csv file names to the days of the week for the service IDs in calendar.txt
-service_ids = {'sunday':1,'saturday':2,'monday_wednesday':3, 'thursday':4, 'friday': 5}
+service_ids = {'monday_wednesday': 1, 'thursday': 2, 'friday': 3}
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 directions = {'eastbound':[1,"LINDENWOLD LOCAL",estops],
@@ -31,14 +31,14 @@ def process_table(direction, service_days):
     x = 0
     this_stop = 0
     isSpecial = False
-    startMidnight = False   
+    startMidnight = False
     startFld = flds[0].replace('X', '').replace('W', '').strip().strip('"').strip()
     if startFld.startswith('12') and startFld.endswith('A'):
       startMidnight = True  # use '24' for stop times after midnight
-    
+
     for fld in flds:
       t = fld.strip().strip('"').strip()
-      if t.endswith('P') or t.endswith('A'): 
+      if t.endswith('P') or t.endswith('A'):
         if t.startswith('X') or t.startswith('W'):
           t = t[1:].strip()
         if t[1] == ':':
@@ -59,7 +59,7 @@ def process_table(direction, service_days):
           hr = int(hr)
           if hr != 12:
             hr += 12 # military time
-          times[directions[direction][2][this_stop]] = str(hr) + ":" + mins      
+          times[directions[direction][2][this_stop]] = str(hr) + ":" + mins
 
         wtimes.writerow([tripId,times[directions[direction][2][this_stop]]+':00',
             times[directions[direction][2][this_stop]]+':10',
