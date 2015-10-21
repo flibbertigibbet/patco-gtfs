@@ -31,9 +31,9 @@ for ln in reader:
     holiday = int(ln[0])
     if holiday >= start_date and holiday <= end_date:
       # remove weekday service
-      writer.writerow([3,ln[0],2])
-      # add sunday service
-      writer.writerow([1,ln[0],1])
+      writer.writerow([1,ln[0],2])
+      # add weekend service
+      writer.writerow([2,ln[0],1])
     else:
       print('Skipping holiday entry out of range, on %s.' % ln[0])
 

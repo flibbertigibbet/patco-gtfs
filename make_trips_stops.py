@@ -9,7 +9,7 @@ estops.reverse() # Philly to Lindenwold
 route_id = 12
 
 # map the csv file names to the days of the week for the service IDs in calendar.txt
-service_ids = { 'monday_wednesday': 1, 'thursday': 2, 'friday': 3, 'saturday_sunday': 4, 'sept4': 5, 'sept7': 6 }
+service_ids = { 'monday_friday': 1, 'saturday_sunday': 2 }
 
 # TODO: what's the headsign for the westbound express and train from woodcrest?
 DIR = {'eastbound':[1, "LINDENWOLD LOCAL", estops],
@@ -18,10 +18,10 @@ DIR = {'eastbound':[1, "LINDENWOLD LOCAL", estops],
 SPECIAL_DIR = {'eastbound': [1, "LINDENWOLD SPECIAL"],
                'westbound':[0, "PHILADELPHIA SPECIAL"]}
 
-STOP_HEADER = ['trip_id', 'arrival_time', 'departure_time', 'stop_id', 
+STOP_HEADER = ['trip_id', 'arrival_time', 'departure_time', 'stop_id',
                'stop_sequence', 'pickup_type', 'drop_off_type']
 
-TRIP_HEADER = ['route_id', 'service_id', 'trip_id', 'trip_headsign', 
+TRIP_HEADER = ['route_id', 'service_id', 'trip_id', 'trip_headsign',
                 'direction_id', 'shape_id', 'bikes_allowed']
 
 trip_id = 4151 # start number for trips (arbitrary)
