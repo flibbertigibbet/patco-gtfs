@@ -3,8 +3,14 @@ patco-gtfs
 
 Build [GTFS](https://developers.google.com/transit/gtfs/) files using data extracted from [PATCO's PDF schedule](http://www.ridepatco.org/schedules/schedules.asp).
 
-I've been uploading the results of the process to the GTFS Data Exchange:
+Note that PATCO has started publishing [official GTFS](http://www.ridepatco.org/developers/).
+
+The official GTFS differs from the one produced by this project. I intend to continue maintaining this project for awhile yet.
+
+The results of the process have been uploaded in the past to the GTFS Data Exchange:
 <http://www.gtfs-data-exchange.com/agency/patco/>
+
+I'm not going to post my unofficial GTFS there any longer, as there is now an official source.
 
 Build status:
 =============
